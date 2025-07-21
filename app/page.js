@@ -156,22 +156,7 @@ export default function LandingPage() {
     </div>
 
     {/* Call to action section */}
-    <div className="text-center mt-20">
-      <div className="space-y-6">
-        <p className="text-gray-400 text-lg">Ready to unlock your potential?</p>
-        
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="group relative px-8 py-4 bg-gradient-to-r from-violet-600 to-blue-600 hover:from-violet-700 hover:to-blue-700 text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-violet-500/25 overflow-hidden">
-            <span className="relative z-10">Get Started Free</span>
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-          </button>
-          
-          <button className="px-8 py-4 border-2 border-slate-600 hover:border-violet-500 text-gray-300 hover:text-white font-semibold rounded-full transition-all duration-300 hover:bg-violet-500/10">
-            View Demo
-          </button>
-        </div>
-      </div>
-    </div>
+    
   </div>
 </section>
 
@@ -430,13 +415,7 @@ export default function LandingPage() {
       ))}
     </div>
 
-    {/* Call to action */}
-    <div className="text-center mt-20">
-      <button className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25 overflow-hidden">
-        <span className="relative z-10">Get Started Today</span>
-        <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-cyan-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-      </button>
-    </div>
+    
   </div>
 </section>
 
