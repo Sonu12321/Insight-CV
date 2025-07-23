@@ -534,6 +534,8 @@ export default function LandingPage() {
 </section>
 
 
+
+
       {/* FAQ Section */}
   <section className="w-full py-16 md:py-32 relative overflow-hidden">
   {/* Dynamic animated background */}
@@ -664,6 +666,8 @@ export default function LandingPage() {
     </div>
   </div>
 </section>
+
+
 
       {/* CTA Section */}
       <section className="w-full py-16 md:py-32 relative overflow-hidden">

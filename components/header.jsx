@@ -25,11 +25,11 @@ export default async function Header() {
   await checkUser();
 
   return (
-    <header className="fixed top-0 w-full z-50 border-b border-slate-700/50 bg-slate-900/95 backdrop-blur-xl supports-[backdrop-filter]:bg-slate-900/80">
+    <header className="absolute top-0 w-full z-50  ">
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo Section */}
         <Link href="/">
-          <div className="flex items-center space-x-3 mt-4 rounded-lg">
+          <div className="flex items-center space-x-3 mt-4 mx-[-8] rounded-lg">
             <Image
               src="/logo.png"
               alt="InsightCV"
