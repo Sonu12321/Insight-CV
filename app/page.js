@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import {
@@ -23,6 +24,7 @@ import { faqs } from "@/data/faqs";
 import { howItWorks } from "@/data/howItWorks";
 import Particles from "./components/particles";
 import { data } from "./components/ds";
+import Footer from "./lib/footer";
 
 export default function LandingPage() {
   return (
@@ -722,11 +724,15 @@ export default function LandingPage() {
             <span>Secure & Private</span>
           </div>
         </div>
+
+{/* <Footer /> */}
+     
       </div>
     </div>
   </div>
 </section>
 
+<Footer />
     </>
   );
 }
