@@ -1,3 +1,5 @@
+
+
 import React from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -21,24 +23,14 @@ import { features } from "@/data/features";
 import { testimonial } from "@/data/testimonial";
 import { faqs } from "@/data/faqs";
 import { howItWorks } from "@/data/howItWorks";
-import Particles from "./components/particles";
+// import Particles from "./components/particles";
 import { data } from "./components/ds";
 
 export default function LandingPage() {
+
   return (
     <>
-      <div >
-        <Particles
-          particleColors={["#ffffff", "#ffffff"]}
-          particleCount={200}
-          particleSpread={10}
-          speed={0.1}
-          particleBaseSize={100}
-          moveParticlesOnHover={true}
-          alphaParticles={false}
-          disableRotation={false}
-        />
-      </div>
+     
 
       {/* Hero Section */}
       <HeroSection />
